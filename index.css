@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+:root{
+    --color:#163A24;
+}
+
+body{
+    margin:0;
+}
+
+.top{
+    top: 0;
+    height: 15vh;
+    background-color: var(--color);
+    font-weight: 700;
+}
+
+.top-content{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin: 0px 140px 20px 130px;
+    padding-top: 20px;
+    /* background: lightblue; */
+   
+}
+
+.logo>img{
+    height: 58px;
+    width: 153px;
+}
+
+.top-items{
+    width: 25vw;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.btn{
+    background:#198C36;
+    padding: 15px 25px;
+    border-radius: 10rem;
+    margin: 0;
+}
+
+.login,.number{
+    padding: 15px 0 15px 0;
+    margin: 0;
+}
+
+.hero{
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 42% 58%;
+    padding: 0 130px 19px 130px;
+    background: var(--color);
+}
+
+.hero-content{
+    /* padding-left: 110px; */
+}
+.hero .topic{
+    padding: 120px 40px 18px 0px;
+    color:#fbfaf7;
+    font-family:Georgia, serif;
+    font-size:58px;
+    font-weight:700;
+    /* background: palevioletred; */
+}
+
+.hero .sub-topic{
+    color:#fbfaf7;
+    font-family:"Noto Sans", Arial, sans-serif;
+    font-size:18px;
+    text-align:left;    
+}
+
+.hero-img img{
+    width: 681px;
+    height: 581;
+}
+
