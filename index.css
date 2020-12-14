@@ -116,6 +116,7 @@ p{
     padding: 0px 91px 0px 91px;
     align-items: center;
     height: 80vh;
+    grid-gap: 50px;
 }
 
 .group div{
